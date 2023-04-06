@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 import '@/shared/assets/fonts/adrianna/stylesheet.css';
+import '@/shared/assets/fonts/druk/stylesheet.css';
 
 export const GlobalStyle = createGlobalStyle`
 
