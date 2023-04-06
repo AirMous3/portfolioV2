@@ -20,7 +20,7 @@ export const Logo = styled.div`
 
   span {
     font-size: 25px;
-    font-family: 'Adrianna Rg', sans-serif;
+    font-family: 'Druk', sans-serif;
   }
 `;
 

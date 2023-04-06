@@ -1,3 +1,4 @@
+import { Projectslist } from '@/entities';
 import { Noise } from '@/features';
 import { Container } from '@/shared/ui';
 import { Header } from '@/widgets';
@@ -8,6 +9,7 @@ export const Main = () => {
       <Noise />
       <Header />
       <Container>
+        <Projectslist />
         <div>123</div>
         <div>123</div>
         <div>123</div>
