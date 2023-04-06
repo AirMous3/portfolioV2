@@ -12,7 +12,7 @@ const b = keyframes`
   }
 `;
 
-export const Wrapper = styled.div`
+export const NoiseWrapper = styled.div`
   position: fixed;
   width: 100vw;
   height: 100vw;
@@ -21,4 +21,5 @@ export const Wrapper = styled.div`
   z-index: 9999;
   opacity: 0.21;
   transition: 1.1s linear 0.5s;
+  pointer-events: none;
 `;

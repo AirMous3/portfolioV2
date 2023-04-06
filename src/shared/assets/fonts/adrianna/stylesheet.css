@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Adrianna Extended Rg';
+    src: url('AdriannaExtended-Bold.eot');
+    src: local('AdriannaExtended-Bold'),
+    url('AdriannaExtended-Bold.eot?#iefix') format('embedded-opentype'),
+    url('AdriannaExtended-Bold.woff2') format('woff2'),
+    url('AdriannaExtended-Bold.woff') format('woff'),
+    url('AdriannaExtended-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Lt';
+    src: url('Adrianna-Demibold.eot');
+    src: local('Adrianna Demibold'), local('Adrianna-Demibold'),
+    url('Adrianna-Demibold.eot?#iefix') format('embedded-opentype'),
+    url('Adrianna-Demibold.woff2') format('woff2'),
+    url('Adrianna-Demibold.woff') format('woff'),
+    url('Adrianna-Demibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Rg';
+    src: url('Adrianna-Bold.eot');
+    src: local('Adrianna Bold'), local('Adrianna-Bold'),
+    url('Adrianna-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Adrianna-Bold.woff2') format('woff2'),
+    url('Adrianna-Bold.woff') format('woff'),
+    url('Adrianna-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Lt';
+    src: url('Adrianna-Light.eot');
+    src: local('Adrianna Light'), local('Adrianna-Light'),
+    url('Adrianna-Light.eot?#iefix') format('embedded-opentype'),
+    url('Adrianna-Light.woff2') format('woff2'),
+    url('Adrianna-Light.woff') format('woff'),
+    url('Adrianna-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Extended Xb';
+    src: url('AdriannaExtended-ExtraBold.eot');
+    src: local('AdriannaExtended-ExtraBold'),
+    url('AdriannaExtended-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('AdriannaExtended-ExtraBold.woff2') format('woff2'),
+    url('AdriannaExtended-ExtraBold.woff') format('woff'),
+    url('AdriannaExtended-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Extended Lt';
+    src: url('AdriannaExtended-DemiBold.eot');
+    src: local('AdriannaExtended-DemiBold'),
+    url('AdriannaExtended-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('AdriannaExtended-DemiBold.woff2') format('woff2'),
+    url('AdriannaExtended-DemiBold.woff') format('woff'),
+    url('AdriannaExtended-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Xb';
+    src: url('Adrianna-Extrabold.eot');
+    src: local('Adrianna Extrabold'), local('Adrianna-Extrabold'),
+    url('Adrianna-Extrabold.eot?#iefix') format('embedded-opentype'),
+    url('Adrianna-Extrabold.woff2') format('woff2'),
+    url('Adrianna-Extrabold.woff') format('woff'),
+    url('Adrianna-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Extended Lt';
+    src: url('AdriannaExtended-Light.eot');
+    src: local('AdriannaExtended-Light'),
+    url('AdriannaExtended-Light.eot?#iefix') format('embedded-opentype'),
+    url('AdriannaExtended-Light.woff2') format('woff2'),
+    url('AdriannaExtended-Light.woff') format('woff'),
+    url('AdriannaExtended-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Rg';
+    src: url('Adrianna-Regular.eot');
+    src: local('Adrianna Regular'), local('Adrianna-Regular'),
+    url('Adrianna-Regular.eot?#iefix') format('embedded-opentype'),
+    url('Adrianna-Regular.woff2') format('woff2'),
+    url('Adrianna-Regular.woff') format('woff'),
+    url('Adrianna-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Th';
+    src: url('Adrianna-Thin.eot');
+    src: local('Adrianna Thin'), local('Adrianna-Thin'),
+    url('Adrianna-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Adrianna-Thin.woff2') format('woff2'),
+    url('Adrianna-Thin.woff') format('woff'),
+    url('Adrianna-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Extended Rg';
+    src: url('AdriannaExtended-Regular.eot');
+    src: local('AdriannaExtended-Regular'),
+    url('AdriannaExtended-Regular.eot?#iefix') format('embedded-opentype'),
+    url('AdriannaExtended-Regular.woff2') format('woff2'),
+    url('AdriannaExtended-Regular.woff') format('woff'),
+    url('AdriannaExtended-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Extended Th';
+    src: url('AdriannaExtended-Thin.eot');
+    src: local('AdriannaExtended-Thin'),
+    url('AdriannaExtended-Thin.eot?#iefix') format('embedded-opentype'),
+    url('AdriannaExtended-Thin.woff2') format('woff2'),
+    url('AdriannaExtended-Thin.woff') format('woff'),
+    url('AdriannaExtended-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adrianna Rg';
+    src: url('Adrianna-Italic.eot');
+    src: local('Adrianna Italic'), local('Adrianna-Italic'),
+    url('Adrianna-Italic.eot?#iefix') format('embedded-opentype'),
+    url('Adrianna-Italic.woff2') format('woff2'),
+    url('Adrianna-Italic.woff') format('woff'),
+    url('Adrianna-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
