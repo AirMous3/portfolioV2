@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioV2/static/css/main.074bfa8c.css",
-    "main.js": "/portfolioV2/static/js/main.b81f7e61.js",
+    "main.js": "/portfolioV2/static/js/main.18e78724.js",
     "static/media/noise.png": "/portfolioV2/static/media/noise.a481fbdcd92df085a205.png",
     "static/media/Adrianna-Light.eot": "/portfolioV2/static/media/Adrianna-Light.08293de97aac4eff1486.eot",
     "static/media/Adrianna-Light.ttf": "/portfolioV2/static/media/Adrianna-Light.91513d69a5dd371ea2f4.ttf",
@@ -15,7 +15,7 @@
     "static/media/AdriannaExtended-Bold.ttf": "/portfolioV2/static/media/AdriannaExtended-Bold.40c3e864c48dfc9cb623.ttf",
     "static/media/AdriannaExtended-Light.eot": "/portfolioV2/static/media/AdriannaExtended-Light.d39b4d2c73cf1cb4ec49.eot",
     "static/media/AdriannaExtended-Light.ttf": "/portfolioV2/static/media/AdriannaExtended-Light.b12d5d842997ebbdb602.ttf",
-    "static/media/projects.jpg": "/portfolioV2/static/media/projects.c0c8e5137e74a83e2a04.jpg",
+    "static/media/mainImage.jpg": "/portfolioV2/static/media/mainImage.c0c8e5137e74a83e2a04.jpg",
     "static/media/AdriannaExtended-Regular.eot": "/portfolioV2/static/media/AdriannaExtended-Regular.a1287404058c8d1fa3e8.eot",
     "static/media/AdriannaExtended-Regular.ttf": "/portfolioV2/static/media/AdriannaExtended-Regular.eb6b0422a4eae87edcb5.ttf",
     "static/media/Adrianna-Italic.eot": "/portfolioV2/static/media/Adrianna-Italic.52f981a497e7ac8d3af0.eot",
@@ -30,6 +30,7 @@
     "static/media/Adrianna-Thin.ttf": "/portfolioV2/static/media/Adrianna-Thin.26642aa560ffe8c4f5b1.ttf",
     "static/media/AdriannaExtended-Thin.eot": "/portfolioV2/static/media/AdriannaExtended-Thin.53c93209aa0d91b2fd17.eot",
     "static/media/AdriannaExtended-Thin.ttf": "/portfolioV2/static/media/AdriannaExtended-Thin.1d3338f40e1df42cc617.ttf",
+    "static/media/conquer.webp": "/portfolioV2/static/media/conquer.eed71bd25d9642c7760b.webp",
     "static/media/Adrianna-Regular.woff": "/portfolioV2/static/media/Adrianna-Regular.47bdd1cafa3d9b66a69b.woff",
     "static/media/Adrianna-Light.woff": "/portfolioV2/static/media/Adrianna-Light.b8c604783012455dd824.woff",
     "static/media/Adrianna-Demibold.woff": "/portfolioV2/static/media/Adrianna-Demibold.885c76ceb51e3907c4d9.woff",
@@ -74,10 +75,10 @@
     "index.html": "/portfolioV2/index.html",
     "static/media/down-arrow.svg": "/portfolioV2/static/media/down-arrow.967197057010a58d06ed8c3774151a79.svg",
     "main.074bfa8c.css.map": "/portfolioV2/static/css/main.074bfa8c.css.map",
-    "main.b81f7e61.js.map": "/portfolioV2/static/js/main.b81f7e61.js.map"
+    "main.18e78724.js.map": "/portfolioV2/static/js/main.18e78724.js.map"
   },
   "entrypoints": [
     "static/css/main.074bfa8c.css",
-    "static/js/main.b81f7e61.js"
+    "static/js/main.18e78724.js"
   ]
 }
