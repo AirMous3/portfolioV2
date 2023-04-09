@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import styled from 'styled-components/macro';
 
 import projectsImage from '@/shared/assets/projectImages/conquer.webp';
@@ -7,7 +8,7 @@ export const ProjectWrapper = styled.div`
   margin-bottom: 350px;
 `;
 
-export const ProjectTitle = styled.div`
+export const ProjectTitle = styled(motion.div)`
   position: relative;
   color: inherit;
   font-size: 7vw;
@@ -24,18 +25,30 @@ export const ProjectTitle = styled.div`
   }
 `;
 
-export const ProjectDescriptionWrapper = styled.div`
+export const ProjectInfoWrapper = styled.div`
   position: relative;
   display: flex;
   justify-content: flex-end;
 `;
 
-export const ProjectDescription = styled.p`
-  max-width: 550px;
-  margin-top: 50px;
+export const ProjectDescriptionWrapper = styled.div`
+  max-width: 650px;
+  margin-top: 25px;
 `;
 
-export const ProjectImage = styled.div`
+export const ProjectDescription = styled(motion.p)`
+  font-family: 'Adrianna Extended Th', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+
+  span {
+    font-family: 'Druk', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+`;
+
+export const ProjectImage = styled(motion.div)`
   position: absolute;
   z-index: -1;
   top: -165px;
