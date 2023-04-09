@@ -39,6 +39,15 @@ export const TitleWrapper = styled.div`
 
 export const ArrowContainer = styled.div`
   position: absolute;
-  bottom: 55px;
+  bottom: 0;
   left: 0;
+`;
+
+export const StrokedText = styled.span`
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-stroke-color: #1a1a1e;
+  -webkit-text-stroke-color: #1a1a1e;
+  -moz-text-stroke-width: 1.2px;
+  -webkit-text-stroke-width: 1.2px;
 `;

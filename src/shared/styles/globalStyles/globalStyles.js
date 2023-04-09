@@ -32,4 +32,9 @@ export const GlobalStyle = createGlobalStyle`
   img {
     pointer-events: none;
   }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 `;

@@ -7,7 +7,7 @@ export const Projectslist = () => {
     <S.ProjectlistWrapper>
       <S.TitleWrapper>
         <S.Title>
-          MY <span>PROJECTS</span>
+          <S.StrokedText>MY</S.StrokedText> PROJECTS
         </S.Title>
         <S.MainImage />
 
@@ -15,6 +15,14 @@ export const Projectslist = () => {
           <ScrollArrow />
         </S.ArrowContainer>
       </S.TitleWrapper>
+
+      <div>234</div>
+      <div>234</div>
+      <div>234</div>
+      <div>234</div>
+      <div>234</div>
+      <div>234</div>
+      <div>234</div>
     </S.ProjectlistWrapper>
   );
 };

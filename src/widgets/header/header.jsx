@@ -9,9 +9,15 @@ export const Header = () => {
 
       <S.Nav>
         <S.NavWrapper>
-          <li>The Projects</li>
-          <li>Experience</li>
-          <li>Opportunities</li>
+          <li>
+            <S.NavLink href="#Projects">The Projects</S.NavLink>
+          </li>
+          <li>
+            <S.NavLink href="#Experience">Experience</S.NavLink>
+          </li>
+          <li>
+            <S.NavLink href="#Opportunities">Opportunities</S.NavLink>
+          </li>
         </S.NavWrapper>
       </S.Nav>
 

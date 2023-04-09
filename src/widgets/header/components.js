@@ -35,8 +35,33 @@ export const NavWrapper = styled.ul`
   display: flex;
 
   li {
+    position: relative;
     margin-right: 25px;
     cursor: pointer;
+  }
+`;
+
+export const NavLink = styled.a`
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    will-change: transform;
+    transition: transform 0.55s cubic-bezier(0.82, 0.01, 0.21, 1);
+    transform: scaleX(0);
+    transform-origin: 100% 0;
+    background-color: #91e4d1;
+  }
+
+  &:hover {
+    &:before {
+      transition: transform 0.85s cubic-bezier(0.82, 0.01, 0.21, 1);
+      transform: scaleX(1);
+      transform-origin: 0 0;
+    }
   }
 `;
 
