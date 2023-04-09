@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', serif;
     overflow-x: hidden;
     box-sizing: border-box;
+    color: ${({ theme }) => theme.colors.text.main};
   }
 
   #root {

@@ -1,1 +1,2 @@
-export * from './projectslist'
+export * from './projectslist';
+export * from './project';

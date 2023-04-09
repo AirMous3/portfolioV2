@@ -1,29 +1,25 @@
 import styled from 'styled-components/macro';
 
-import projectImage from '@/shared/assets/projects.jpg';
+import projectImage from '@/shared/assets/mainImage.jpg';
 
 export const ProjectlistWrapper = styled.div`
   font-family: 'Druk', sans-serif;
   user-select: none;
+  margin-top: 200px;
 `;
 
 export const Title = styled.h1`
-  position: absolute;
-  top: 50px;
-  left: 0;
   font-size: 7vw;
   letter-spacing: 0.02em;
   line-height: 0.85em;
   color: ${({ theme }) => theme.colors.text.main};
 
-  span {
-  }
 `;
 
 export const MainImage = styled.div`
   position: absolute;
   z-index: -1;
-  top: 0;
+  top: -60px;
   right: 0;
   background-image: url(${projectImage});
   width: 50vw;

@@ -1,3 +1,4 @@
+import { Project } from '@/entities';
 import { ScrollArrow } from '@/widgets';
 
 import * as S from './components';
@@ -16,13 +17,7 @@ export const Projectslist = () => {
         </S.ArrowContainer>
       </S.TitleWrapper>
 
-      <div>234</div>
-      <div>234</div>
-      <div>234</div>
-      <div>234</div>
-      <div>234</div>
-      <div>234</div>
-      <div>234</div>
+      <Project />
     </S.ProjectlistWrapper>
   );
 };
