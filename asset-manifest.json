@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioV2/static/css/main.074bfa8c.css",
-    "main.js": "/portfolioV2/static/js/main.06b77f01.js",
+    "main.js": "/portfolioV2/static/js/main.8c1a4f05.js",
     "static/media/noise.png": "/portfolioV2/static/media/noise.a481fbdcd92df085a205.png",
     "static/media/Adrianna-Light.eot": "/portfolioV2/static/media/Adrianna-Light.08293de97aac4eff1486.eot",
     "static/media/Adrianna-Light.ttf": "/portfolioV2/static/media/Adrianna-Light.91513d69a5dd371ea2f4.ttf",
@@ -49,6 +49,7 @@
     "static/media/Adrianna-Demibold.woff2": "/portfolioV2/static/media/Adrianna-Demibold.d6cb9a0a892957dd021d.woff2",
     "static/media/Adrianna-Bold.woff2": "/portfolioV2/static/media/Adrianna-Bold.d978ad9655b076a375e9.woff2",
     "static/media/Adrianna-Light.woff2": "/portfolioV2/static/media/Adrianna-Light.ca306048f7ea295e5ad9.woff2",
+    "static/media/modsen.webp": "/portfolioV2/static/media/modsen.f1f0979364be28db2311.webp",
     "static/media/Adrianna-Italic.woff2": "/portfolioV2/static/media/Adrianna-Italic.e4c939f904fc22b8e27f.woff2",
     "static/media/AdriannaExtended-ExtraBold.woff": "/portfolioV2/static/media/AdriannaExtended-ExtraBold.49316940db1d13e9c0c4.woff",
     "static/media/AdriannaExtended-Bold.woff2": "/portfolioV2/static/media/AdriannaExtended-Bold.a60f6f2bd3a0d94b2e19.woff2",
@@ -75,10 +76,10 @@
     "index.html": "/portfolioV2/index.html",
     "static/media/down-arrow.svg": "/portfolioV2/static/media/down-arrow.967197057010a58d06ed8c3774151a79.svg",
     "main.074bfa8c.css.map": "/portfolioV2/static/css/main.074bfa8c.css.map",
-    "main.06b77f01.js.map": "/portfolioV2/static/js/main.06b77f01.js.map"
+    "main.8c1a4f05.js.map": "/portfolioV2/static/js/main.8c1a4f05.js.map"
   },
   "entrypoints": [
     "static/css/main.074bfa8c.css",
-    "static/js/main.06b77f01.js"
+    "static/js/main.8c1a4f05.js"
   ]
 }
