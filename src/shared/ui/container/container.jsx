@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 
 const ContainerWrapper = styled.div`
-  margin: 150px auto;
+  margin: 0 auto;
   width: 70%;
 `;
 

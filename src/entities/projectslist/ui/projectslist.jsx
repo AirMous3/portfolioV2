@@ -3,6 +3,7 @@ import { useScroll, useTransform } from 'framer-motion';
 import { Project } from '@/entities';
 
 import * as S from './components';
+import { projectsConfig } from './projectsConfig';
 
 export const Projectslist = () => {
   const { scrollY } = useScroll();
@@ -23,7 +24,15 @@ export const Projectslist = () => {
         </S.ArrowContainer>
       </S.TitleWrapper>
 
-      <Project />
+      {projectsConfig.map(({ description, subtitle, image, title, technologies }) => (
+        <Project
+          description={description}
+          title={title}
+          subtitle={subtitle}
+          image={image}
+          technologies={technologies}
+        />
+      ))}
     </S.ProjectlistWrapper>
   );
 };

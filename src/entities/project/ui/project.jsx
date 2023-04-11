@@ -1,36 +1,33 @@
 import { useScroll, useTransform } from 'framer-motion';
+import { useRef } from 'react';
 
 import * as S from './components';
 
-export const Project = () => {
-  const { scrollY } = useScroll();
-  const titleYPosition = useTransform(scrollY, (value) => value / -3);
-  const imageYPosition = useTransform(scrollY, (value) => value / -2);
-  const descriptionYPosition = useTransform(scrollY, (value) => value / -3.5);
+export const Project = ({ title, subtitle, description, technologies, image }) => {
+  const ref = useRef();
+  const { scrollYProgress } = useScroll({
+    target: ref,
+  });
+  const titleYPosition = useTransform(scrollYProgress, [0, 1], [-80, 40]);
+  const imageYPosition = useTransform(scrollYProgress, [0, 1], [-60, 20]);
+  const descriptionYPosition = useTransform(scrollYProgress, [0, 1], [-40, 0]);
 
   return (
-    <S.ProjectWrapper>
+    <S.ProjectWrapper ref={ref}>
       <S.ProjectTitle style={{ y: titleYPosition }}>
-        <span>Conquer</span> startup
+        <span>{title}</span> {subtitle}
       </S.ProjectTitle>
+
       <S.ProjectInfoWrapper>
-        <S.ProjectImage style={{ y: imageYPosition }} />
+        <S.ProjectImage style={{ y: imageYPosition }} image={image}/>
 
         <S.ProjectDescriptionWrapper>
           <S.ProjectDescription style={{ y: descriptionYPosition }}>
-            Had a part of creation a No-code platform for creating sites with integration
-            into existing React applications. Wrote a system for parsing jsx/tsx files,
-            defining components and their props. Added the output of the components
-            existing in the project to the visual editor. Implemented a backend service
-            for rendering components in the browser emulator (Playwright) to display
-            component screenshots. Parsed redux stores to visually display them and edit
-            them using the react-flow library.Constant interaction with the back-end team,
-            marketing, testers. SCRUM. Atlassian confluence
+            {description}
           </S.ProjectDescription>
 
           <S.ProjectDescription style={{ y: descriptionYPosition }}>
-            <span>Project Technologies</span>: react, redux, redux-thunk, typescript,
-            grapejs, next.js, reactflow, emotion, etc.
+            <span>Project Technologies</span>: {technologies}
           </S.ProjectDescription>
         </S.ProjectDescriptionWrapper>
       </S.ProjectInfoWrapper>

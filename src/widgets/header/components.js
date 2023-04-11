@@ -33,6 +33,8 @@ export const Nav = styled.nav`
 
 export const NavWrapper = styled.ul`
   display: flex;
+  font-family: Druk, sans-serif;
+  font-size: 11px;
 
   li {
     position: relative;

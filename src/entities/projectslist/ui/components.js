@@ -7,7 +7,7 @@ import projectImage from '@/shared/assets/mainImage.jpg';
 export const ProjectlistWrapper = styled.div`
   font-family: 'Druk', sans-serif;
   user-select: none;
-  margin-top: 240px;
+  margin-top: 260px;
 `;
 
 export const Title = styled(motion.h1)`
@@ -35,8 +35,8 @@ export const TitleWrapper = styled.div`
 `;
 
 export const ArrowContainer = styled.div`
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  top: 20px;
   left: 0;
 `;
 

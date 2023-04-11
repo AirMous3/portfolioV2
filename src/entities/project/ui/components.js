@@ -1,11 +1,9 @@
 import { motion } from 'framer-motion';
 import styled from 'styled-components/macro';
 
-import projectsImage from '@/shared/assets/projectImages/conquer.webp';
-
 export const ProjectWrapper = styled.div`
   margin-top: 200px;
-  margin-bottom: 350px;
+  margin-bottom: 300px;
 `;
 
 export const ProjectTitle = styled(motion.div)`
@@ -32,7 +30,7 @@ export const ProjectInfoWrapper = styled.div`
 `;
 
 export const ProjectDescriptionWrapper = styled.div`
-  max-width: 650px;
+  max-width: 35vw;
   margin-top: 25px;
 `;
 
@@ -53,7 +51,7 @@ export const ProjectImage = styled(motion.div)`
   z-index: -1;
   top: -165px;
   left: -20px;
-  background-image: url(${projectsImage});
+  background-image: url(${({ image }) => image});
   height: 36vw;
   width: 27vw;
   background-size: contain;
